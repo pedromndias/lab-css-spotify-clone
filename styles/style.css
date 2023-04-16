@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+body {
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.nav-bar {
+    position: sticky;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.nav-bar a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    padding: 5px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-links {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin: 25px;
+    
+}
+
+#spotify-logo {
+    width: 100px;
+}
+
+#large-background {
+    height: 600px;
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#large-background h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#large-background p {
+    width: 400px;
+}
+
+#whats-spotify {
+    margin: 40px;
+}
+
+#whats-spotify h2 {
+    display: inline-block;
+    border-bottom: 2px solid #00B172;
+}
+
+#whats-spotify h3 {
+    color: #00B172;
+}
+
+.logos-specific {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.individual-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.logo-img {
+    width: 200px;
+}
+
+#green-section {
+    height: 550px;
+    background-color: #00B172;
+    color: #fff;
+    display: flex;
+    padding: 50px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.green-section-text h2 {
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+}
+
+.green-section-text h3 {
+    font-weight: 700;
+}
+
+.green-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 330px;
+    text-align: left;
+    
+}
+
+#spotify-white {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
